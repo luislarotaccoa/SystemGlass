@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>079f514a-d8e8-431e-986f-24f482ff8f5a</ProjectGuid>
+    <ProjectGuid>{079F514A-D8E8-431E-986F-24F482FF8F5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LOGICA</RootNamespace>
@@ -31,24 +31,78 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entidades\Cliente\Calificacion.cs" />
+    <Compile Include="Entidades\Cliente\Cliente.cs" />
+    <Compile Include="Entidades\Cliente\Cobranza.cs" />
+    <Compile Include="Entidades\Cliente\DireccionCliente.cs" />
+    <Compile Include="Entidades\Cliente\LineaCredito.cs" />
+    <Compile Include="Entidades\Cliente\SocioCliente.cs" />
+    <Compile Include="Entidades\Empleado\Empleado.cs" />
+    <Compile Include="Entidades\IOProducto\Consumo.cs" />
+    <Compile Include="Entidades\IOProducto\DetalleConsumo.cs" />
+    <Compile Include="Entidades\IOProducto\DetalleEntrega.cs" />
+    <Compile Include="Entidades\IOProducto\DetalleIngreso.cs" />
+    <Compile Include="Entidades\IOProducto\DetalleOCompra.cs" />
+    <Compile Include="Entidades\IOProducto\DetalleTransferencia.cs" />
+    <Compile Include="Entidades\IOProducto\Entrega.cs" />
+    <Compile Include="Entidades\IOProducto\Ingreso.cs" />
+    <Compile Include="Entidades\IOProducto\Moneda.cs" />
+    <Compile Include="Entidades\IOProducto\OCompra.cs" />
+    <Compile Include="Entidades\IOProducto\Transferencia.cs" />
+    <Compile Include="Entidades\Producto\Almacen.cs" />
+    <Compile Include="Entidades\Producto\AlmacenUbicacion.cs" />
+    <Compile Include="Entidades\Producto\Categoria.cs" />
+    <Compile Include="Entidades\Producto\CategoriaColor.cs" />
+    <Compile Include="Entidades\Producto\CategoriaDescripcion2.cs" />
+    <Compile Include="Entidades\Producto\CategoriaUnidad.cs" />
+    <Compile Include="Entidades\Producto\Color.cs" />
+    <Compile Include="Entidades\Producto\Contenido.cs" />
+    <Compile Include="Entidades\Producto\Descripcion1.cs" />
+    <Compile Include="Entidades\Producto\Descripcion2.cs" />
+    <Compile Include="Entidades\Producto\DetalleOrdenCompra.cs" />
+    <Compile Include="Entidades\Producto\Familia.cs" />
+    <Compile Include="Entidades\Producto\OrdenCompra.cs" />
+    <Compile Include="Entidades\Producto\Producto.cs" />
+    <Compile Include="Entidades\Producto\ProductoUnidad.cs" />
+    <Compile Include="Entidades\Producto\Ubicacion.cs" />
+    <Compile Include="Entidades\Producto\Unidad.cs" />
+    <Compile Include="Entidades\Proveedor\ContactoProveedor.cs" />
+    <Compile Include="Entidades\Proveedor\Proveedor.cs" />
+    <Compile Include="Entidades\Publico\Banco.cs" />
+    <Compile Include="Entidades\Publico\Comprobante.cs" />
+    <Compile Include="Entidades\Publico\Documento.cs" />
+    <Compile Include="Entidades\Publico\Igv.cs" />
+    <Compile Include="Entidades\Publico\MedioPago.cs" />
+    <Compile Include="Entidades\Publico\TipoCambio.cs" />
+    <Compile Include="Entidades\Publico\Ubigeo.cs" />
+    <Compile Include="Entidades\Usuario\Permisos.cs" />
+    <Compile Include="Entidades\Usuario\ProcesoPermiso.cs" />
+    <Compile Include="Entidades\Usuario\Procesos.cs" />
+    <Compile Include="Entidades\Usuario\Roles.cs" />
+    <Compile Include="Entidades\Usuario\RolProceso.cs" />
+    <Compile Include="Entidades\Usuario\Usuario.cs" />
+    <Compile Include="Entidades\Usuario\UsuarioRoles.cs" />
+    <Compile Include="Entidades\Venta\Credito.cs" />
+    <Compile Include="Entidades\Venta\DetalleProforma.cs" />
+    <Compile Include="Entidades\Venta\Proforma.cs" />
+    <Compile Include="Entidades\Venta\Tienda.cs" />
+    <Compile Include="Entidades\Venta\TiendaUsuario.cs" />
+    <Compile Include="Entidades\Venta\TipoVenta.cs" />
+    <Compile Include="Entidades\Venta\Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logica\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
