@@ -3,7 +3,7 @@
     public class Proveedor
     {
         public int IdProveedor { get; set; }
-        public int IdDocumento { get; set; }
+        public int CodDocumento { get; set; }
         public string RazonSocial { get; set; }
         public string Numero { get; set; }
         public string Direccion { get; set; }

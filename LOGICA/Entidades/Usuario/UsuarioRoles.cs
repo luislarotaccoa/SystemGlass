@@ -1,10 +1,8 @@
 ﻿namespace LOGICA.Entidades.Usuario
 {
-    public class UsuarioRoles
+    public class UsuarioRol
     {
-        public int IdUsuarioRoles { get; set; }
         public int IdUsuario { get; set; }
         public int IdRoles { get; set; }
-        public bool Estado { get; set; }
     }
 }

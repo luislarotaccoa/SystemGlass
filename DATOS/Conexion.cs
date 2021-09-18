@@ -8,7 +8,7 @@ namespace DATOS
 {
     public class Conexion
     {
-        static string stringConnectio = ConfigurationManager.ConnectionStrings["DBTINTAYA"].ToString();
+        static string stringConnectio = ConfigurationManager.ConnectionStrings["SystemGlassDB"].ToString();
 
         public SqlConnection conexion = new SqlConnection(stringConnectio);
         private void Conectar()

@@ -4,10 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PRESENTACION
+namespace PRESENTACION.Formularios
 {
     static class Program
     {
+        internal static int IdUser;
+        internal static string Nombres;
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -16,7 +19,7 @@ namespace PRESENTACION
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Principal());
         }
     }
 }

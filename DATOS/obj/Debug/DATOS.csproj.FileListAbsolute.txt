@@ -1,0 +1,15 @@
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\DATOS.dll
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\DATOS.pdb
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Security.AccessControl.dll
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Security.Permissions.dll
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Security.Principal.Windows.dll
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Security.AccessControl.xml
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Security.Permissions.xml
+D:\Proyectos\SystemGlass\DATOS\bin\Debug\System.Security.Principal.Windows.xml
+D:\Proyectos\SystemGlass\DATOS\obj\Debug\DATOS.csprojAssemblyReference.cache
+D:\Proyectos\SystemGlass\DATOS\obj\Debug\DATOS.csproj.CoreCompileInputs.cache
+D:\Proyectos\SystemGlass\DATOS\obj\Debug\DATOS.csproj.CopyComplete
+D:\Proyectos\SystemGlass\DATOS\obj\Debug\DATOS.dll
+D:\Proyectos\SystemGlass\DATOS\obj\Debug\DATOS.pdb

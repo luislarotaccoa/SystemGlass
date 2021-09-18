@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +43,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ayudas\Centraciones.cs" />
+    <Compile Include="Ayudas\Concatenacion.cs" />
+    <Compile Include="Ayudas\Convertir.cs" />
+    <Compile Include="Ayudas\ConvertNumberToText.cs" />
+    <Compile Include="Ayudas\Evento.cs" />
+    <Compile Include="Ayudas\Formatos.cs" />
+    <Compile Include="Ayudas\FromDialog.cs" />
+    <Compile Include="Ayudas\LabelMessage.cs" />
+    <Compile Include="Ayudas\OpenForm.cs" />
+    <Compile Include="Controles\TextBoxValidado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controles\TextBoxValidado.designer.cs">
+      <DependentUpon>TextBoxValidado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\Cliente\DatosRuc.cs" />
+    <Compile Include="Modelos\Cliente\ModelSocioCliente.cs" />
+    <Compile Include="Modelos\Cliente\ModelCalificacion.cs" />
+    <Compile Include="Modelos\Cliente\ModelCliente.cs" />
+    <Compile Include="Modelos\Cliente\ModelCobranza.cs" />
+    <Compile Include="Modelos\Cliente\ModelCredito.cs" />
+    <Compile Include="Modelos\Cliente\ModelDireccion.cs" />
+    <Compile Include="Modelos\Cliente\ModelLineaCredito.cs" />
+    <Compile Include="Modelos\Empleado\ModelEmpleado.cs" />
+    <Compile Include="Modelos\ESProducto\CompraModel.cs" />
+    <Compile Include="Modelos\Proveedor\ModelContacto.cs" />
+    <Compile Include="Modelos\Proveedor\ModelProveedor.cs" />
+    <Compile Include="Modelos\Publico\BancoModel.cs" />
+    <Compile Include="Modelos\Publico\ComprobanteModel.cs" />
+    <Compile Include="Modelos\Publico\Documento.cs" />
+    <Compile Include="Modelos\Publico\EstadoProductoModel.cs" />
+    <Compile Include="Modelos\Publico\IgvModel.cs" />
+    <Compile Include="Modelos\Publico\MedioPagoModel.cs" />
+    <Compile Include="Modelos\Publico\UbigeoModel.cs" />
+    <Compile Include="Modelos\Producto\ModelDescrip1.cs" />
+    <Compile Include="Modelos\Producto\ModelDescrip2.cs" />
+    <Compile Include="Modelos\Producto\ModelEstadoProducto.cs" />
+    <Compile Include="Modelos\Producto\ModelFamilia.cs" />
+    <Compile Include="Modelos\Producto\ModelAlmacen.cs" />
+    <Compile Include="Modelos\Producto\ModelCategoria.cs" />
+    <Compile Include="Modelos\Producto\ModelColor.cs" />
+    <Compile Include="Modelos\Producto\ModelProducto.cs" />
+    <Compile Include="Modelos\Producto\ModelProductoUnidad.cs" />
+    <Compile Include="Modelos\Producto\ModelUbicacion.cs" />
+    <Compile Include="Modelos\Producto\ModelUnidad.cs" />
+    <Compile Include="Modelos\Usuario\ModelPermiso.cs" />
+    <Compile Include="Modelos\Usuario\ModelProcesoPermiso.cs" />
+    <Compile Include="Modelos\Usuario\ModelProcesos.cs" />
+    <Compile Include="Modelos\Usuario\ModelRol.cs" />
+    <Compile Include="Modelos\Usuario\ModelRolProceso.cs" />
+    <Compile Include="Modelos\Usuario\ModelUsuario.cs" />
+    <Compile Include="Modelos\Usuario\ModelUsuarioRoles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ayudas\Validaciones.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

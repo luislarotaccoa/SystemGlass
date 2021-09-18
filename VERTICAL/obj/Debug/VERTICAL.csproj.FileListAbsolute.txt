@@ -1,0 +1,6 @@
+D:\Proyectos\SystemGlass\VERTICAL\bin\Debug\VERTICAL.dll
+D:\Proyectos\SystemGlass\VERTICAL\bin\Debug\VERTICAL.pdb
+D:\Proyectos\SystemGlass\VERTICAL\obj\Debug\VERTICAL.csprojAssemblyReference.cache
+D:\Proyectos\SystemGlass\VERTICAL\obj\Debug\VERTICAL.csproj.CoreCompileInputs.cache
+D:\Proyectos\SystemGlass\VERTICAL\obj\Debug\VERTICAL.dll
+D:\Proyectos\SystemGlass\VERTICAL\obj\Debug\VERTICAL.pdb

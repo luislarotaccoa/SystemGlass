@@ -44,10 +44,15 @@
     <Compile Include="Entidades\Cliente\Calificacion.cs" />
     <Compile Include="Entidades\Cliente\Cliente.cs" />
     <Compile Include="Entidades\Cliente\Cobranza.cs" />
-    <Compile Include="Entidades\Cliente\DireccionCliente.cs" />
+    <Compile Include="Entidades\Cliente\Direccion.cs" />
     <Compile Include="Entidades\Cliente\LineaCredito.cs" />
     <Compile Include="Entidades\Cliente\SocioCliente.cs" />
+    <Compile Include="Entidades\Empleado\Area.cs" />
+    <Compile Include="Entidades\Empleado\Asistencia.cs" />
     <Compile Include="Entidades\Empleado\Empleado.cs" />
+    <Compile Include="Entidades\Empleado\EmpleadoArea.cs" />
+    <Compile Include="Entidades\Empleado\EmpleadoTurno.cs" />
+    <Compile Include="Entidades\Empleado\Turno.cs" />
     <Compile Include="Entidades\IOProducto\Consumo.cs" />
     <Compile Include="Entidades\IOProducto\DetalleConsumo.cs" />
     <Compile Include="Entidades\IOProducto\DetalleEntrega.cs" />
@@ -63,12 +68,12 @@
     <Compile Include="Entidades\Producto\AlmacenUbicacion.cs" />
     <Compile Include="Entidades\Producto\Categoria.cs" />
     <Compile Include="Entidades\Producto\CategoriaColor.cs" />
-    <Compile Include="Entidades\Producto\CategoriaDescripcion2.cs" />
+    <Compile Include="Entidades\Producto\CategoriaDescrip2.cs" />
     <Compile Include="Entidades\Producto\CategoriaUnidad.cs" />
     <Compile Include="Entidades\Producto\Color.cs" />
     <Compile Include="Entidades\Producto\Contenido.cs" />
-    <Compile Include="Entidades\Producto\Descripcion1.cs" />
-    <Compile Include="Entidades\Producto\Descripcion2.cs" />
+    <Compile Include="Entidades\Producto\Descrip1.cs" />
+    <Compile Include="Entidades\Producto\Descrip2.cs" />
     <Compile Include="Entidades\Producto\DetalleOrdenCompra.cs" />
     <Compile Include="Entidades\Producto\Familia.cs" />
     <Compile Include="Entidades\Producto\OrdenCompra.cs" />
@@ -76,11 +81,10 @@
     <Compile Include="Entidades\Producto\ProductoUnidad.cs" />
     <Compile Include="Entidades\Producto\Ubicacion.cs" />
     <Compile Include="Entidades\Producto\Unidad.cs" />
-    <Compile Include="Entidades\Proveedor\ContactoProveedor.cs" />
+    <Compile Include="Entidades\Proveedor\Contacto.cs" />
     <Compile Include="Entidades\Proveedor\Proveedor.cs" />
     <Compile Include="Entidades\Publico\Banco.cs" />
     <Compile Include="Entidades\Publico\Comprobante.cs" />
-    <Compile Include="Entidades\Publico\Documento.cs" />
     <Compile Include="Entidades\Publico\Igv.cs" />
     <Compile Include="Entidades\Publico\MedioPago.cs" />
     <Compile Include="Entidades\Publico\TipoCambio.cs" />
@@ -99,10 +103,50 @@
     <Compile Include="Entidades\Venta\TiendaUsuario.cs" />
     <Compile Include="Entidades\Venta\TipoVenta.cs" />
     <Compile Include="Entidades\Venta\Venta.cs" />
+    <Compile Include="IRepositorio.cs" />
+    <Compile Include="Logica\Cliente\LogSocioCliente.cs" />
+    <Compile Include="Logica\Cliente\LogCliente.cs" />
+    <Compile Include="Logica\Cliente\LogCobranza.cs" />
+    <Compile Include="Logica\Cliente\LogDireccion.cs" />
+    <Compile Include="Logica\Cliente\LogLineaCredito.cs" />
+    <Compile Include="Logica\Cliente\LogCalificacion.cs" />
+    <Compile Include="Logica\Empleado\LogEmpleado.cs" />
+    <Compile Include="Logica\Proveedor\LogProveedor.cs" />
+    <Compile Include="Logica\Proveedor\LogContacto.cs" />
+    <Compile Include="Logica\Publico\LogIgv.cs" />
+    <Compile Include="Logica\Publico\LogBanco.cs" />
+    <Compile Include="Logica\Publico\LogComprobante.cs" />
+    <Compile Include="Logica\Publico\LogMedioPago.cs" />
+    <Compile Include="Logica\Publico\LogUbigeo.cs" />
+    <Compile Include="Logica\Producto\LogAlmacen.cs" />
+    <Compile Include="Logica\Producto\LogCategoria.cs" />
+    <Compile Include="Logica\Producto\LogColor.cs" />
+    <Compile Include="Logica\Producto\LogColorCategoria.cs" />
+    <Compile Include="Logica\Producto\LogDescrip2Categoria.cs" />
+    <Compile Include="Logica\Producto\LogDescrip1.cs" />
+    <Compile Include="Logica\Producto\LogDescrip2.cs" />
+    <Compile Include="Logica\Producto\LogFamilia.cs" />
+    <Compile Include="Logica\Producto\LogProducto.cs" />
+    <Compile Include="Logica\Producto\LogProductoUnidad.cs" />
+    <Compile Include="Logica\Producto\LogUbicacion.cs" />
+    <Compile Include="Logica\Producto\LogUnidad.cs" />
+    <Compile Include="Logica\Producto\LogUnidadCategoria.cs" />
+    <Compile Include="Logica\Usuario\LogPermiso.cs" />
+    <Compile Include="Logica\Usuario\LogProcesoPermiso.cs" />
+    <Compile Include="Logica\Usuario\LogProcesos.cs" />
+    <Compile Include="Logica\Usuario\LogRol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Logica\" />
+    <ProjectReference Include="..\DATOS\DATOS.csproj">
+      <Project>{0ad3995e-888e-48f7-9036-411168e43ef6}</Project>
+      <Name>DATOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VERTICAL\VERTICAL.csproj">
+      <Project>{5c81113b-00c4-489d-bb20-f81b2a58d052}</Project>
+      <Name>VERTICAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
