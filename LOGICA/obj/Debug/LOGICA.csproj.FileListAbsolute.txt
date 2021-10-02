@@ -9,3 +9,7 @@ D:\Proyectos\SystemGlass\LOGICA\bin\Debug\VERTICAL.dll
 D:\Proyectos\SystemGlass\LOGICA\bin\Debug\DATOS.pdb
 D:\Proyectos\SystemGlass\LOGICA\bin\Debug\VERTICAL.pdb
 D:\Proyectos\SystemGlass\LOGICA\obj\Debug\LOGICA.csproj.CopyComplete
+E:\Proyectos\SystemGlass\LOGICA\obj\Debug\LOGICA.csproj.AssemblyReference.cache
+E:\Proyectos\SystemGlass\LOGICA\obj\Debug\LOGICA.csproj.CoreCompileInputs.cache
+E:\Proyectos\SystemGlass\LOGICA\obj\Debug\LOGICA.dll
+E:\Proyectos\SystemGlass\LOGICA\obj\Debug\LOGICA.pdb
